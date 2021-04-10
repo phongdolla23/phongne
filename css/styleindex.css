@@ -1,0 +1,421 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+/*reset css*/
+a{font-family: 'Oswald', sans-serif;}
+body{
+	background: #393e46;
+}
+#wrapper{
+	width: 1200px;
+	height: 5000px;
+	background: white;
+	margin: 0 auto;
+}
+.header{
+	width: calc(100%);
+/*	background: red;*/
+	height: 100px;
+	margin-bottom: 50px;
+}
+.menu{
+	width: 60%;
+	height: 100px;
+/*	background: #9A570C;*/
+	float: left;
+}
+.menu ul{
+	list-style: none;
+	padding-top: 40px;
+}
+.menu ul li{
+	float: left;
+	margin-left: 60px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: black;
+}
+.ser{
+	width: 40%;
+	height: 100px;
+/*	background: #F38587;*/
+	float: right;
+
+}
+.find{
+	width:70%;
+	height: 20px;
+/*	background: #901012;*/
+	border: solid 1px black;
+	border-radius: 10px;
+	margin-top: 38px;
+	margin-left: 50px;
+}
+.main{
+	width :100%;
+	height: 650px;
+/*	background: #A72729;*/
+}
+.nen{
+	width: 100%;
+	height: 330px;
+	background: #929aab;
+	margin-top: 0px;
+}
+.left{
+	width: calc(30% );
+	height: 300px;
+/*	background: #BFA01E;*/
+	float: left;
+	padding-left: 100px;
+}
+.left h1 {
+	margin-top: 120px;
+	color: #393e46;
+	margin-bottom: 30px;
+	font-size: 40px;
+}
+.left p {
+	margin-top: 5px;
+	font-size: 18px;
+	color: #393e46;
+}
+.right{
+	width: 60%;
+	height: 300px;
+/*	background: #170707;*/
+	float: right
+		
+}
+.right img{
+	width: 100%;
+
+}
+.giay1{
+	width: 300px;
+	height: 150px;
+	background: #F5F5F5;
+	margin-top: 150px;
+	float: left;
+	border-radius: 10px;
+	margin-left: 30px;
+	border: solid 2px gray;
+	
+}
+.letf-nho{
+	width: 130px;
+	height: 120px;
+/*	background: #7B0F11;*/
+	float: left;
+}
+.letf-nho h4 {
+	margin-top: 20px;
+	margin-bottom: 8px;
+	margin-left: 10px;
+}
+.letf-nho h5{
+	margin-top: 17px;
+	margin-left: 10px;
+}
+.letf-nho p {
+	margin-left: 10px;
+}
+.right-nho{
+	width: 170px;
+	height: 150px;
+/*	background: #364AE8;*/
+	float: right;
+}
+.right-nho img {
+	width: 70%;
+}
+.giay2{
+	width: 300px;
+	height: 150px;
+	background: #F5F5F5;
+	margin-top: 150px;
+	float: left;
+	border-radius: 10px;
+	margin-left: 30px;
+	border: solid 2px gray;
+	
+}
+.letf-nho2{
+	width: 130px;
+	height: 120px;
+/*	background: #7B0F11;*/
+	float: left;
+}
+.letf-nho2 h4 {
+	margin-top: 20px;
+	margin-bottom: 8px;
+	margin-left: 10px;
+}
+.letf-nho2 h5{
+	margin-top: 17px;
+	margin-left: 10px;
+}
+.letf-nho2 p {
+	margin-left: 10px;
+}
+.right-nho2{
+	width: 170px;
+	height: 150px;
+/*	background: #364AE8;*/
+	float: right;
+}
+.right-nho2 img {
+	width: 100%;
+	margin-top: 20px;
+}
+.giay3{
+	width: 300px;
+	height: 150px;
+/*	background: #F5F5F5;*/
+	margin-top: 150px;
+	float: left;
+	border-radius: 10px;
+	margin-left: 30px;
+	border: solid 2px gray;
+	
+}
+.letf-nho3{
+	width: 130px;
+	height: 120px;
+/*	background: #7B0F11;*/
+	float: left;
+}
+.letf-nho3 h4 {
+	margin-top: 20px;
+	margin-bottom: 8px;
+	margin-left: 10px;
+}
+.letf-nho3 h5{
+	margin-top: 17px;
+	margin-left: 10px;
+}
+.letf-nho3 p {
+	margin-left: 10px;
+}
+.right-nho3{
+	width: 170px;
+	height: 150px;
+/*	background: #364AE8;*/
+	float: right;
+}
+.right-nho3 img {
+	width: 80%;
+}
+.footer{
+	width: 100%;
+	height: 400px;
+/*	background: #A74243;*/
+	margin-top: 80px;
+	
+}
+.logon{
+	width: 600px;
+	height: 100px;
+	text-align: center;
+	margin: 0 auto;
+}
+.bigpic1{
+	width: 30%;
+	height: 340px;
+/*	background: #7C1214;*/
+	border-radius: 20px;
+	float: left;
+	margin-left: 40px;
+	margin-right: 20px;
+	text-align: center;
+}
+.bigpic1 img {
+	width: 95%;
+	border-radius: 20px;
+}
+.bigpic2{
+	width: 30%;
+	height: 340px;
+/*	background: #7C1214;*/
+	border-radius: 20px;
+	float: left;
+/*	margin-left: 40px;*/
+	margin-right: 20px;
+	text-align: center;
+}
+.bigpic2 img{
+	width: 95%;
+	border-radius: 20px;
+}
+.bigpic3{
+	width: 30%;
+	height: 340px;
+/*	background: #7C1214;*/
+	border-radius: 20px;
+	float: left;
+/*	margin-left: 40px;*/
+	margin-right: 20px;
+	text-align: center;
+}
+.bigpic3 img {
+	width: 95%;
+	border-radius: 20px;
+}
+.topseller{
+	width: 100%;
+	height:400px;
+/*	background: #B81E21;*/
+	margin-top: 100px;
+	text-align: center;
+}
+.seller1{
+	width: 20%;
+	height: 360px;
+	background: #F6F6F6;
+	float: left;
+	margin-left: 48px;
+	border-radius: 15px;
+	border: solid 1px gray;
+	margin-top: 50px;
+	
+}
+.slepic{
+	width: 100%;
+	height: 230px;
+/*	background: #25A7B7;*/
+/*	text-align: center;*/
+}
+.slepic img{
+	width: 99%;
+	border-radius: 20px;
+}
+.chu{
+	text-align: center;
+}
+.chu h4{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+.chu p{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.chu h5{
+	font-size: 15px;
+}
+.seller2{
+	width: 20%;
+	height: 360px;
+	background: #F6F6F6;
+	float: left;
+	margin-left: 48px;
+	border-radius: 15px;
+	border: solid 1px gray;
+	margin-top: 50px;
+	
+}
+.slepic2{
+	width: 100%;
+	height: 230px;
+/*	background: #25A7B7;*/
+/*	text-align: center;*/
+}
+.slepic2 img{
+	width: 90%;
+	border-radius: 20px;
+	margin-top: 60px
+}
+.chu2{
+	text-align: center;
+}
+.chu2 h4{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+.chu2 p{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.chu2 h5{
+	font-size: 15px;
+}
+.seller3{
+	width: 20%;
+	height: 360px;
+	background: #F6F6F6;
+	float: left;
+	margin-left: 48px;
+	border-radius: 15px;
+	border: solid 1px gray;
+	margin-top: 50px;
+	
+}
+.slepic3{
+	width: 100%;
+	height: 230px;
+/*	background: #25A7B7;*/
+/*	text-align: center;*/
+}
+.slepic3 img{
+	width: 99%;
+	border-radius: 20px;
+	margin-top: 72px
+}
+.chu3{
+	text-align: center;
+}
+.chu3 h4{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+.chu3 p{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.chu3 h5{
+	font-size: 15px;
+}
+.seller4{
+	width: 20%;
+	height: 360px;
+	background: #F6F6F6;
+	float: left;
+	margin-left: 48px;
+	border-radius: 15px;
+	border: solid 1px gray;
+	margin-top: 50px;
+	
+}
+.slepic4{
+	width: 100%;
+	height: 230px;
+/*	background: #25A7B7;*/
+/*	text-align: center;*/
+}
+.slepic4 img{
+	width: 95%;
+	border-radius: 20px;
+	margin-top: 55px;
+}
+.chu4{
+	text-align: center;
+}
+.chu4 h4{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+.chu4 p{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.chu4 h5{
+	font-size: 15px;
+}
